@@ -1,8 +1,8 @@
 {
   "build": {
-    "command": "chmod +x gradlew && ./gradlew build"
+    "command": "./gradlew build"
   },
   "deploy": {
-    "startCommand": "java -jar build/libs/*.jar"
+    "startCommand": "java -jar $(ls build/libs/*.jar | grep -v plain)"
   }
 }
