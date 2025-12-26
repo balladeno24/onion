@@ -1,0 +1,8 @@
+{
+  "build": {
+    "command": "./gradlew build"
+  },
+  "deploy": {
+    "startCommand": "java -jar build/libs/*.jar"
+  }
+}
