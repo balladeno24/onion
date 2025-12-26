@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "./gradlew build"
+    "command": "./gradlew build -Pproduction"
   },
   "deploy": {
     "startCommand": "java -jar $(ls build/libs/*.jar | grep -v plain)"
