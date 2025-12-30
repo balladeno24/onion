@@ -17,7 +17,6 @@ repositories {
 dependencies {
     // Core Spring Boot
     implementation("org.springframework.boot:spring-boot-starter")
-    implementation("org.springframework.boot:spring-boot-starter-web")
 
     // Vaadin Framework
     implementation("com.vaadin:vaadin-spring-boot-starter:24.4.7")

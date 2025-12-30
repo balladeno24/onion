@@ -1,6 +1,6 @@
 {
   "build": {
-    "command": "./gradlew clean bootJar -Pproduction"
+    "command": "./gradlew clean build"
   },
   "deploy": {
     "startCommand": "java -jar build/libs/onin-1.0-SNAPSHOT.jar"
